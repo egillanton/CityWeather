@@ -5,7 +5,7 @@ using Newtonsoft.Json.Linq;
 
 namespace CityWeather.Core.Services
 {
-    class DataService : IDataService
+    public class DataService : IDataService
     {
         public async Task<JContainer> GetDataFromService(string queryString)
         {

@@ -89,7 +89,9 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <Compile Include="Setup.cs" />
+    <Compile Include="Views\WeatherDetailView.cs" />
     <Compile Include="Views\MainView.cs" />
+    <Compile Include="Views\WeatherDetailView.designer.cs" />
     <Compile Include="Views\MainView.designer.cs" />
     <None Include="App.config" />
     <None Include="GettingStarted.Xamarin" />
@@ -97,6 +99,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <None Include="packages.config" />
     <InterfaceDefinition Include="Views\MainView.xib" />
+    <InterfaceDefinition Include="Views\WeatherDetailView.xib" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ViewController.designer.cs">
@@ -143,7 +146,6 @@
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AppDelegate.cs.txt" />
     <Content Include="Entitlements.plist" />
     <Content Include="ToDo-MvvmCross\_ iOS UI.txt" />
   </ItemGroup>

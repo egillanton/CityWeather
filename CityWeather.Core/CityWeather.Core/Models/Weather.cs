@@ -2,7 +2,6 @@
 {
     public class Weather
     {
-        public string Id { get; set; }
         public string Title { get; set; }
         public string Temperature { get; set; }
         public string Wind { get; set; }
@@ -13,7 +12,6 @@
 
         public Weather()
         {
-            Id = " ";
             Title = " ";
             Temperature = " ";
             Wind = " ";
@@ -25,8 +23,7 @@
 
         protected bool Equals(Weather other)
         {
-            return string.Equals(Id, other.Id) 
-                && string.Equals(Title, other.Title) 
+            return string.Equals(Title, other.Title) 
                 && string.Equals(Temperature, other.Temperature) 
                 && string.Equals(Wind, other.Wind) 
                 && string.Equals(Humidity, other.Humidity) 
@@ -47,8 +44,7 @@
         {
             unchecked
             {
-                var hashCode = (Id != null ? Id.GetHashCode() : 0);
-                hashCode = (hashCode * 397) ^ (Title != null ? Title.GetHashCode() : 0);
+                var hashCode = (Title != null ? Title.GetHashCode() : 0);
                 hashCode = (hashCode * 397) ^ (Temperature != null ? Temperature.GetHashCode() : 0);
                 hashCode = (hashCode * 397) ^ (Wind != null ? Wind.GetHashCode() : 0);
                 hashCode = (hashCode * 397) ^ (Humidity != null ? Humidity.GetHashCode() : 0);

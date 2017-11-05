@@ -39,6 +39,7 @@
     <Compile Include="Services\IWeatherService.cs" />
     <Compile Include="Services\OpenWeatherMapWeatherService.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\WeatherDetailViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MvvmCross.Binding, Version=5.4.0.0, Culture=neutral, processorArchitecture=MSIL">

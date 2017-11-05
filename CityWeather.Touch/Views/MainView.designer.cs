@@ -16,22 +16,64 @@ namespace CityWeather.Touch.Views
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton Button { get; set; }
+        UIKit.UIButton SearchButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode("iOS Designer", "1.0")]
+        UIKit.UIButton ViewWeatherDetailButton { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField TextField { get; set; }
+        UIKit.UITextField QueryStringTextField { get; set; }
+
+
+        [Outlet]
+        [GeneratedCode("iOS Designer", "1.0")]
+        UIKit.UIStackView WeatherSummaryStackView { get; set; }
+        [Outlet]
+        [GeneratedCode("iOS Designer", "1.0")]
+        UIKit.UITextField WeatherTitleTextField { get; set; }
+
+        [Outlet]
+        [GeneratedCode("iOS Designer", "1.0")]
+        UIKit.UITextField WeatherTemperatureTextField { get; set; }
+
 
         void ReleaseDesignerOutlets ()
         {
-            if (Button != null) {
-                Button.Dispose ();
-                Button = null;
+            if (QueryStringTextField != null)
+            {
+                QueryStringTextField.Dispose();
+                QueryStringTextField = null;
             }
 
-            if (TextField != null) {
-                TextField.Dispose ();
-                TextField = null;
+            if (SearchButton != null) {
+                SearchButton.Dispose ();
+                SearchButton = null;
+            }
+
+            if (WeatherTitleTextField != null)
+            {
+                WeatherTitleTextField.Dispose();
+                WeatherTitleTextField = null;
+            }
+
+            if (WeatherTemperatureTextField != null)
+            {
+                WeatherTemperatureTextField.Dispose();
+                WeatherTemperatureTextField = null;
+            }
+
+            if (ViewWeatherDetailButton != null)
+            {
+                ViewWeatherDetailButton.Dispose();
+                ViewWeatherDetailButton = null;
+            }
+
+            if (WeatherSummaryStackView != null)
+            {
+                WeatherSummaryStackView.Dispose();
+                WeatherSummaryStackView = null;
             }
         }
     }

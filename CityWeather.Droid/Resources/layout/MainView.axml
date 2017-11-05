@@ -3,16 +3,43 @@
     xmlns:local="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:padding="15dp">
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:textSize="40dp"
-        local:MvxBind="Text Text" />
+        local:MvxBind="Text QueryString" />
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="Reset"
-        android:textSize="40dp"
-        local:MvxBind="Click ResetTextCommand" />
+        android:text="Get Weather Info"
+        local:MvxBind="Click SearchCommand" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        local:MvxBind="Visible IsWeatherVisable"
+        android:backgroundTint="#ffb4b4b4"
+        android:background="@android:drawable/alert_light_frame">
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            local:MvxBind="Text Weather.Title"/>
+        <TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            local:MvxBind="Text Weather.Temperature"
+            android:layout_gravity="center_horizontal" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="View Details"
+            local:MvxBind="Click ViewWeatherDetailCommand"/>
+    </LinearLayout>
 </LinearLayout>
