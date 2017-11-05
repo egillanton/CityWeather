@@ -1,7 +1,6 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
-namespace CirtyWeather.Test.ViewModels
+namespace CityWeather.Test.ViewModels
 {
     [TestFixture]
     public class MainViewModelTest

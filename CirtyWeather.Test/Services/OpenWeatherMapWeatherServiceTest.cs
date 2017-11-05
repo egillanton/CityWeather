@@ -1,7 +1,6 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
-namespace CirtyWeather.Test.Services
+namespace CityWeather.Test.Services
 {
     [TestFixture]
     public class OpenWeatherMapWeatherServiceTest

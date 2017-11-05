@@ -1,7 +1,7 @@
 ﻿using CityWeather.Core.Models;
 using NUnit.Framework;
 
-namespace CirtyWeather.Test.Models
+namespace CityWeather.Test.Models
 {
     [TestFixture]
     public class WeatherTest

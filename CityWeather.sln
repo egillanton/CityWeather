@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{8AD6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1147EABE-8738-401E-9ED9-8D4FDDBD0A34}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CirtyWeather.Test", "CirtyWeather.Test\CirtyWeather.Test.csproj", "{243FDA22-6777-4145-A71D-9F89C0B2CE5B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityWeather.Test", "CirtyWeather.Test\CityWeather.Test.csproj", "{243FDA22-6777-4145-A71D-9F89C0B2CE5B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CityWeather.Specs", "CityWeather.Specs\CityWeather.Specs.csproj", "{DA4A2ED0-164E-4C0A-BD21-C42EB7DDFC63}"
 EndProject

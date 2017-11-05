@@ -1,11 +1,10 @@
-﻿using System;
-using System.Net.Http;
-using NUnit.Framework;
+﻿using System.Net.Http;
 using CityWeather.Core.Services;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
+using NUnit.Framework;
 
-namespace CirtyWeather.Test.Services
+namespace CityWeather.Test.Services
 {
     [TestFixture]
     public class DataServiceTest
