@@ -1,13 +1,9 @@
-# City Weather
-__City Weather__ is a cross-platform Xamarin Native application that shows weather
-information in cities using the [Open Weather API](http://openweathermap.org/current).
-
-## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-### Prerequisites
-* Visual Studio 2017 15.14.2
-* Access to Android device that runs on Android 6.0 (Marshmallow) or higher.
+<h1 align="center"> City Weather </h1> <br>
+<p align="center">
+Cross-platform Xamarin Native application that shows weather
+information in cities using the
+<br>[Open Weather API](http://openweathermap.org/current).
+</p>
 
 ## Screen Shots
 ![Screen Shots](./doc/img/screen_shots.png)
