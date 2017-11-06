@@ -2,7 +2,8 @@
 <p align="center">
 Cross-platform Xamarin Native application that shows weather
 information in cities using the
-<br>[Open Weather API](http://openweathermap.org/current).
+<br>
+<a href="http://openweathermap.org/current">Open Weather API</a>
 </p>
 
 ## Screen Shots
